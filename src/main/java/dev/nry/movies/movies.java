@@ -1,4 +1,4 @@
-package dev.nry.motion_picture;
+package dev.nry.movies;
 
 
 import lombok.AllArgsConstructor;
@@ -15,10 +15,10 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Movie {
+public class movies {
     @Id
-    private ObjectId id;
-    private String imdbID;
+    private ObjectId _id;
+    private String imdbId;
 
     private String title;
     private String releaseDate;

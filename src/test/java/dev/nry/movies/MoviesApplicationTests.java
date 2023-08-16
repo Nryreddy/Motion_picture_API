@@ -1,10 +1,10 @@
-package dev.nry.motion_picture;
+package dev.nry.movies;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MotionPictureApplicationTests {
+class MoviesApplicationTests {
 
     @Test
     void contextLoads() {
